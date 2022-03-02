@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site web streaming">
-    <title lang="eng">Streamino</title>
+    <title lang="en">Streamino</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <header>
@@ -19,11 +21,14 @@
     </header>
     <main>
         <section class="content-pri">
+            <h2>
+
+            </h2>
             <ul>
                 <li>
                     <figure>
                         <img src="./favicon/favicon-32x32.png" alt="">
-                        <figcaption>lorem</figcaption>
+                        <figcaption></figcaption>
                     </figure>
                 </li>
                 <li>
@@ -65,24 +70,24 @@
                 </div>
                 <div>
                     <label for="prenom">Prénom</label>
-                    <input type="text" placeholder="Prénom"> 
+                    <input type="text" id="prenom" placeholder="Prénom"> 
                 </div>
                 <div>
                     <label for="e-mail">E-mail</label>
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" id="e-mail" placeholder="E-mail">
                 </div>
                 <div>
                     <label for="ville">Ville</label>
-                    <input list="ville" type="text" placeholder="Ville">
-                    <datalist id="ville">
+                    <input list="ville-opt" id="ville" type="text" placeholder="Ville">
+                    <datalist id="ville-opt">
                         <option value="Paris"></option>
                         <option value="Une ville moins bien"></option>
                     </datalist>
                 </div>
                 <div>
                     <label for="pays">Pays</label>
-                    <input list="pays" type="text" placeholder="Pays">
-                    <datalist id="pays">
+                    <input list="pays-opt" id="pays" type="text" placeholder="Pays">
+                    <datalist id="pays-opt">
                         <option value="France"></option>
                         <option value="Un pays moins bien"></option>
                     </datalist>                
