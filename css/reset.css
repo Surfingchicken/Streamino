@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto:wght@300&display=swap');
 html{
     font-size: 62.5%; 
 }
 body{
   font: 1.6rem sans-serif;
+  font-family: 'Fredoka', sans-serif;
   line-height: 1.6;
   margin: 0;
 }
@@ -15,7 +17,7 @@ li,
 p,
 button,
 figure, 
-blockquote, h1, h2, h3, address{
+h1{
     padding: 0;
     margin: 0;
     border: 0;
@@ -23,6 +25,14 @@ blockquote, h1, h2, h3, address{
     font-style: normal;
     
 
+}
+input,input[type="submit"], button{
+    border: 0;
+    background-color: transparent;
+    font-size: inherit;
+}
+fieldset{
+    border: solid .1rem transparent;
 }
 button{
     background: transparent;
