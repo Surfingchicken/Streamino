@@ -53,8 +53,9 @@ fieldset form input{
     background-color: #fff;
     border-radius: 0.5rem;
 }
+
 .form-button{
-    margin-bottom: 5rem;
+    margin: 5rem;
 }
 .form-button a{
     padding: 0.75rem;
@@ -63,10 +64,14 @@ fieldset form input{
     
 }
 fieldset form input[type="submit"]{
-    color: #000;
-    text-transform: uppercase;
-    font-size: initial;
+    color: #222;
     text-align: center;
+    background-color: #9be52a;
+    border-radius: 5rem;
+    width: min-content;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
