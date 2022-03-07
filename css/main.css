@@ -22,13 +22,12 @@ header img{
 }
 .content-pri ul{
     width: 550px;
-    height: 550px;
+    height: 330px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
     margin: 5rem auto;
-    gap: 10px;
-    
+    gap: 10px 10px;
 
 }
 .content-pri-2 ul{
