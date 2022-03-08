@@ -1,7 +1,5 @@
-Hello. Nouveau repo 02/03/2022
+Bienvenue sur Streamino, mon site factice de streaming inspiré de Prime
 
-Ca prend forme 04/03/2022
-
-Problèmes random d'affichage de la grid, responsivité à faire, accessibilité à revoir 06/03/2022
+ma palette : <a href= "./asset/Palette Streamino.png">
 
 https://surfingchicken.github.io/Streamino/
