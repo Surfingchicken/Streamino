@@ -20,24 +20,23 @@ header img{
     padding: 2rem;
     background-color: rgb(0,168,225);
 }
+.content-pri h3{
+    vertical-align: middle;
+    
+}
 .content-pri ul{
-    width: 550px;
-    height: 330px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin: 5rem auto;
-    gap: 10px 10px;
+    margin: 5rem;
+    gap: 100px 10px;
 
 }
 .content-pri-2 ul{
-    width: 550px;
-    height: 100px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    margin: 5rem auto;
-    gap: 0 10px;
+    grid-template-columns: repeat(5, 1fr); 
+    margin: 0;
+    margin: 5rem;
     
 }
 fieldset form *{
@@ -72,6 +71,7 @@ fieldset form input[type="submit"]{
     margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
+    padding: 5px;
 }
 
 
