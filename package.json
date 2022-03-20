@@ -1,0 +1,23 @@
+{
+  "name": "cine",
+  "version": "1.0.0",
+  "description": "## Bienvenue sur Streamino, mon site factice de streaming inspiré de Prime",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel --no-babelrc src -w -d js --preset=env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surfingchicken/Streamino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surfingchicken/Streamino/issues"
+  },
+  "homepage":"https://github.com/Surfingchicken/Streamino#readme"
+  
+  
+
+}
