@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="./css/main.css">
+---
+import styles from: ./css/main.css">
+---
 # Streamino
 
 ## Bienvenue sur Streamino, mon site factice de streaming inspiré de Prime
