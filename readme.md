@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto:wght@300&display=swap');
+</style>
 # Streamino
 
 ## Bienvenue sur Streamino, mon site factice de streaming inspiré de Prime
