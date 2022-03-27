@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
             title : "ONCE UPON A TIME IN THE WEST",
             date : 1969,
             director : "Sergio Leone",
-            type : "Westerns"
+            type : "Western"
         },
         {    
             image : "https://resizing.flixster.com/wmT7MbU06GHG5IJoJmxNwUWbZPU=/206x305/v2/https://flxt.tmsimg.com/NowShowing/152024/152024_ab.jpg",
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
                                     <figcaption>
                                         <h3>${element.title}</h3>
                                             <ul>
-                                                <li>Date : ${element.date}</li>
+                                                <li>Sortie : ${element.date}</li>
                                                 <li>Réalisateur : ${element.director}</li>
                                                 <li>Genre : ${element.type}</li>
                                             </ul>
