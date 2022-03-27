@@ -89,8 +89,8 @@ fieldset form input[type="submit"]{
 }
 
 .content-pri ul li figure figcaption{
-    display:none;
-    position:relative;
+    display: none;
+    position: relative;
     top: 0;
     left: 0;
     height: 100%;
@@ -106,8 +106,8 @@ fieldset form input[type="submit"]{
     text-align: center;
 }
 
-.content-pri ul li figure:hover figcaption:first-of-type{
-    display: grid;
+.content-pri ul li:hover figure:hover figcaption{
+    display: block;
     transform: scale(1);
 }
 
