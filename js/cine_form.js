@@ -64,12 +64,15 @@ document.addEventListener("DOMContentLoaded", e => {
         el.innerHTML = data_movie;
     });
 
-    let list = document.getElementsByName("list");
+    const em = document.querySelector(".inner-form");
+    let list = document.createElement("ul");
+    em.prepend(list);
+
     const form = {
         first_name: document.getElementsByName("nom")[0],
         last_name: document.getElementsByName("prenom")[0],
         e_mail: document.getElementsByName("e-mail")[0],
-        ville: document.getElementsByName("ville")[0],
+        ville: document.getElementsByName("ville-opt")[0],
         pays: document.getElementsByName("pays")[0],
         btn_validation: document.querySelector("button"),
         warning: document.querySelector(".warning"),
@@ -91,7 +94,6 @@ document.addEventListener("DOMContentLoaded", e => {
             } else {
                 form.warning.classList.add("show-warning");
                 form.warning.innerText = "Remplir les champs";
-                //alert("Remplir les champs")
             }
         }
     };

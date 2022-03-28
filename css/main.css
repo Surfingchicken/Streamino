@@ -103,9 +103,9 @@ fieldset form input[type="submit"], fieldset form button{
 .content-pri ul li figure figcaption, .content-pri-2 ul li figure figcaption{
     display: flex;
     position: absolute;
-    top: 40%;
+    top: 0;
     left: 0;
-    height:fit-content;
+    height:100%;
     width: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6);
@@ -118,8 +118,7 @@ fieldset form input[type="submit"], fieldset form button{
     text-align: center;
     overflow:visible;
 }
-
-.content-pri ul li:hover figure:hover figcaption,.content-pri-2 ul li:hover figure:hover figcaption{
+.content-pri ul li figure:hover figcaption,.content-pri-2 ul li figure:hover figcaption{
     display: block;
     transform: scale(1);
 }
