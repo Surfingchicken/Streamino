@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
             first_name: document.getElementsByName("nom")[0],
             last_name: document.getElementsByName("prenom")[0],
             e_mail: document.getElementsByName("e-mail")[0],
-            ville: document.getElementsByName("ville-opt")[0],
+            ville: document.getElementsByName("ville")[0],
             pays: document.getElementsByName("pays")[0],
             btn_validation: document.querySelector("button"),
             warning: document.querySelector(".warning"),
@@ -87,8 +87,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
                     console.log(`Nom : ${this.first_name.value}
                     Prénom : ${this.last_name.value}
                     e-mail : ${this.e_mail.value}
-                    pays : ${this.pays.value}
-                    `)
+                    pays : ${this.pays.value}`);
                     localStorage.setItem('User', JSON.stringify(form.info));
                     form.info.push(this.first_name.value, this.last_name.value, this.e_mail.value, this.ville.value, this.pays.value);
                     console.table(form.info);
@@ -103,5 +102,5 @@ document.addEventListener("DOMContentLoaded",(e)=>{
         form.btn_validation.addEventListener("click", e => {
             e.preventDefault();
             form.control;
-        });
+        })
     })

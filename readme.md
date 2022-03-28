@@ -7,4 +7,4 @@ Palette Graphique: ![Palette_Streamino](asset/Palette_Streamino.png)
 
 Typographie: <span style ="font-family:'Fredoka', sans-serif;">Fredoka, sans-serif : Exemple de ma typographie</span>
 
-## Lien vers mon site : https://surfingchicken.github.io/Streamino/
+## Lien vers mon site : <a src ="https://surfingchicken.github.io/Streamino/">mon site</a>
