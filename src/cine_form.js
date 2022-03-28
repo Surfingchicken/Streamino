@@ -72,10 +72,6 @@ document.addEventListener("DOMContentLoaded",(e)=>{
             el.innerHTML = data_movie;
         })
 
-        const em = document.querySelector(".inner-form");
-        let list = document.createElement("ul");
-        em.prepend(list);
-
         const form = 
         ({
             first_name: document.getElementsByName("nom")[0],
@@ -92,10 +88,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
                     Prénom : ${this.last_name.value}
                     e-mail : ${this.e_mail.value}
                     pays : ${this.pays.value}
-                    `);
-                    for (let index in form.info) {
-                        list.innerHTML += `<li>${index} : ${form.info[index]}</li>`;
-                    }
+                    `)
                     localStorage.setItem('User', JSON.stringify(form.info));
                     form.info.push(this.first_name.value, this.last_name.value, this.e_mail.value, this.ville.value, this.pays.value);
                     console.table(form.info);
