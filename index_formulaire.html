@@ -37,31 +37,25 @@
                     <legend>
                         Remplissez le formulaire
                     </legend>
-                    <form action="index_formulaire.html" method="post">
+                    <form action="index_formulaire.html" method="get">
                             <label for="nom">Nom</label>
-                            <input type="text" id="nom" placeholder="Nom" aria-required="true">
+                            <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true">
                                         
                             <label for="prenom">Prénom</label>
-                            <input type="text" id="prenom" placeholder="Prénom" aria-required="true"> 
+                            <input type="text" id="prenom" name ="prenom" placeholder="Prénom" aria-required="true"> 
                                     
-                            <label for="e-mail">E-mail</label>
-                            <input type="email" id="e-mail" placeholder="E-mail" aria-required="true">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="E-mail" aria-required="true">
                                     
                             <label for="ville">Ville</label>
-                            <input list="ville-opt" id="ville" type="text" placeholder="Ville" aria-required="true">
-                            <datalist id="ville-opt">
-                                <option value="Paris"></option>
-                                <option value="Une ville moins bien"></option>
-                            </datalist>
+                            <input  id="ville" type="text" name = "ville" placeholder="Ville" aria-required="true">
+                            
                         
                             <label for="pays">Pays</label>
-                            <input list="pays-opt" id="pays" type="text" placeholder="Pays" aria-required="true">
-                            <datalist id="pays-opt">
-                                <option value="France"></option>
-                                <option value="Un pays moins bien"></option>
-                            </datalist> 
+                            <input  id="pays" type="text" name ="pays" placeholder="Pays" aria-required="true">
                             
-                            <button type="submit" value="Valider" aria-label="cliquez pour envoyer">Valider</button>            
+                            
+                            <input type="submit" name="valided" value="Valider" aria-label="cliquez pour envoyer">            
                     </form>
                 </fieldset>
             </div>
@@ -73,6 +67,7 @@
             @-Streamino-2022
         </footer>
         
+        <script src="./js/cine_form_valid.js"></script>
         <script src="./js/cine_form.js"></script>
     </body>
 </html>

@@ -1,6 +1,7 @@
-document.addEventListener("DOMContentLoaded",(e)=>{
+document.addEventListener("DOMContentLoaded", (e) =>{
     console.log(e.target);
-    movie :[ 
+    
+    /* movie :[ 
         {
         image : String,
         title : String,
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
         director : String,
         type : String
         }
-    ]
+    ] */
     const list_movie = [
         {
             image : "https://resizing.flixster.com/IIKXvP0JRYHDLTh_jD4wOm0ap2w=/206x305/v2/https://flxt.tmsimg.com/assets/p30673_p_v8_ag.jpg",
@@ -71,36 +72,6 @@ document.addEventListener("DOMContentLoaded",(e)=>{
             parents.appendChild(el);
             el.innerHTML = data_movie;
         })
-
-        const form = 
-        ({
-            first_name: document.getElementsByName("nom")[0],
-            last_name: document.getElementsByName("prenom")[0],
-            e_mail: document.getElementsByName("e-mail")[0],
-            ville: document.getElementsByName("ville")[0],
-            pays: document.getElementsByName("pays")[0],
-            btn_validation: document.querySelector("button"),
-            warning: document.querySelector(".warning"),
-            info: [],
-            control() {
-                if (this.first_name.value && this.last_name.value && this.e_mail.value && this.ville.value && this.pays.value) {
-                    console.log(`Nom : ${this.first_name.value}
-                    Prénom : ${this.last_name.value}
-                    e-mail : ${this.e_mail.value}
-                    pays : ${this.pays.value}`);
-                    localStorage.setItem('User', JSON.stringify(form.info));
-                    form.info.push(this.first_name.value, this.last_name.value, this.e_mail.value, this.ville.value, this.pays.value);
-                    console.table(form.info);
-                    form.warning.classList.remove("show-warning");
-                } 
-                else {
-                    form.warning.classList.add("show-warning");
-                    form.warning.innerText = "Remplir les champs";
-                }
-            }
-        })
-        form.btn_validation.addEventListener("click", e => {
-            e.preventDefault();
-            form.control;
-        })
+        
+       
     })

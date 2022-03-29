@@ -1,18 +1,21 @@
 document.addEventListener("DOMContentLoaded", e => {
     console.log(e.target);
-    movie: [{
-        image: String,
-        title: String,
-        date: Number,
-        director: String,
-        type: String
-    }, {
-        image: String,
-        title: String,
-        date: Number,
-        director: String,
-        type: String
-    }];
+    /*movie :[ 
+        {
+        image : String,
+        title : String,
+        date : Number,
+        director : String,
+        type : String
+        },
+        {
+        image : String,
+        title : String,
+        date : Number,
+        director : String,
+        type : String
+        }
+    ]*/
     const list_movie = [{
         image: "https://resizing.flixster.com/ofMWj9FQLR4I6gMc1jLnmfjgjRY=/206x305/v2/https://flxt.tmsimg.com/assets/p4161_p_v8_av.jpg",
         title: "THE GOOD, THE BAD AND THE UGLY",

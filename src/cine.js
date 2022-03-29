@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",(e)=>{
     console.log(e.target);
-    movie :[ 
+    /*movie :[ 
         {
         image : String,
         title : String,
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
         director : String,
         type : String
         }
-    ]
+    ]*/
     const list_movie = [
         {
             image : "https://resizing.flixster.com/ofMWj9FQLR4I6gMc1jLnmfjgjRY=/206x305/v2/https://flxt.tmsimg.com/assets/p4161_p_v8_av.jpg",

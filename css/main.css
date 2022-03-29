@@ -43,6 +43,7 @@ header img{
     background-color: var(--secundary-color--);
     padding: 1rem;
     border-radius: 2rem ;
+    transform: scale(0.8);
 }
 .content-pri-2>ul{
     display: grid;
@@ -123,6 +124,9 @@ fieldset form input[type="submit"], fieldset form button{
 }
 .content-pri ul li figure:hover figcaption,.content-pri-2 ul li figure:hover figcaption{
     display: block;
+    transform: scale(1);
+}
+.content-pri ul li:hover, .content-pri-2 ul li:hover {
     transform: scale(1);
 }
 
