@@ -23,7 +23,7 @@ header img{
 .adv-form{
     margin: 5rem 5vw 5rem ;   
 }
-.inner-form,.adv-form>p{
+.inner-form fieldset,.adv-form>p{
     margin: 1rem 20vw 1rem;
     border: solid; 
     border-radius: 8rem;
@@ -56,14 +56,21 @@ header img{
 .warning{
     display: none;
 }
-.show-warning{
+.show-warning {
     display: block;
+    color: red;
+    text-transform: uppercase;
+    font-size: x-large;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 fieldset legend{
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
-
+    margin-top: 2rem;
 }
 fieldset form *{
     display: block;
@@ -89,6 +96,12 @@ fieldset form input[type="submit"], fieldset form button{
     margin-right: auto;
     margin-left: auto;
     padding: 0.3125rem;
+    font-size: inherit;
+    font: inherit;
+}
+::placeholder{
+    font-size: inherit;
+    font: inherit;
 }
 
 .form-button{
@@ -99,7 +112,8 @@ fieldset form input[type="submit"], fieldset form button{
     padding: 0.75rem;
     background-color: var(--button-color--);
     border-radius: 5rem;
-    
+    font-size: inherit;
+    font: inherit;
 }
 .content-pri ul li figure , .content-pri-2 ul li figure {
     position: relative;

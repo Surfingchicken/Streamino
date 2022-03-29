@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", (e) =>{
         warning: document.querySelector(".warning"),
         info: [],
         control() {
-            if (this.first_name.value && this.last_name.value && this.email && this.ville && this.pays) {
+            if (this.first_name.value && this.last_name.value && this.email.value && this.ville.value && this.pays.value) {
                 console.log(`Nom : ${this.first_name.value}
                 Prénom : ${this.last_name.value}
                 e-mail : ${this.email.value}
@@ -36,6 +36,6 @@ document.addEventListener("DOMContentLoaded", (e) =>{
 
     form.btn_validation.addEventListener("click", e => {
         e.preventDefault();
-        form.control;
+        form.control();
     })
 })
