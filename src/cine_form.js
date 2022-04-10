@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", (e) =>{
             let parents = document.querySelector("ul")
             parents.appendChild(el);
             el.innerHTML = data_movie;
+            
             const data_movie_modal = `<figure class="modale">
                                         <img src="${element.image}" alt="affiche ${element.title}">
                                         <figcaption>
