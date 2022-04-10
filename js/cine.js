@@ -125,5 +125,36 @@ document.addEventListener("DOMContentLoaded", e => {
         let parents = document.querySelector("ul");
         parents.appendChild(el);
         el.innerHTML = data_movie;
+
+        const data_movie_modal = `<figure class="modale" alt="zoom up on ${element.title} ">
+                                        <img src="${element.image}" alt="affiche ${element.title}">
+                                        <figcaption>
+                                        <h3 class="desc">${element.title}</h3>
+                                            <p>
+                                                Réalisateur : ${element.director} <br>
+                                                Genre : ${element.type} <br>
+                                            </p>
+                                            <time>Sortie : ${element.date} </time>
+                                        </figcaption>
+                                        <figure>
+                                    `;
+
+        let modal = document.querySelector(".parent-modale");
+        function open_modal() {
+            console.log(data_movie_modal);
+            modal.classList.add("modale-active");
+            modal.innerHTML = data_movie_modal;
+        }
+        el.addEventListener("click", open_modal);
+
+        let closed = document.querySelector(".parent-modale");
+        let closed_all = document.querySelector(".parent-modale");
+
+        closed.addEventListener("click", () => {
+            modal.classList.remove("modale-active");
+        });
+        closed_all.addEventListener("click", () => {
+            modal.classList.remove("modale-active");
+        });
     });
 });
