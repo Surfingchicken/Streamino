@@ -228,6 +228,8 @@ fieldset form input[type="submit"], fieldset form button{
         grid-template-rows: repeat(8, 1fr);
     }
     .content-pri-2>ul{
+        padding: 0;
+        margin: 0;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
