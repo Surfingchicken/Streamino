@@ -273,15 +273,16 @@ fieldset form input[type="submit"], fieldset form button{
         grid-template-rows: repeat(2, 1fr);
     }
     .modale-active .modale{
-        display: flex;
-        height: 100%;
-        width: 95%;
+        
+        position: fixed;
+        height: fit-content ;
+        width: 100%;
         padding: 0;
         margin: 0;
-        top: 0;
-        left: 2.5%;
+        top: 10%;
+        left: 0;
         transform: none;
-        
+        display: flex;
     }
     .modale-active .modale img{
         margin: 0;
@@ -296,7 +297,7 @@ fieldset form input[type="submit"], fieldset form button{
     .modale-active .modale figcaption {
         position: relative;
         top: 0 ;
-        left: 2%;
+        left: 0;
         width: fit-content;
         height: inherit;
         text-align: left;
