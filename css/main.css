@@ -263,7 +263,7 @@ fieldset form input[type="submit"], fieldset form button{
     }
     
 }
-@media screen and ((max-width: 100rem) and (orientation: landscape)){
+@media screen and (max-width: 100rem) and (orientation: landscape){
     .content-pri>ul{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -289,15 +289,12 @@ fieldset form input[type="submit"], fieldset form button{
         position: relative;
         height: inherit;
         width: 100%;
-        top: 5%;
+        top: 0;
         left: 0 ;
         transform: none;
-        
- 
     }
     .modale-active .modale figcaption {
         position: relative;
-        padding-top: 5%;
         top: 0 ;
         left: 5%;
         width: fit-content;
