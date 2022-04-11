@@ -287,7 +287,7 @@ fieldset form input[type="submit"], fieldset form button{
         margin: 0;
         padding: 0;
         position: relative;
-        height: fit-content;
+        height: inherit;
         max-width: fit-content;
         top: 0;
         left: 0 ;
@@ -296,7 +296,7 @@ fieldset form input[type="submit"], fieldset form button{
     .modale-active .modale figcaption {
         position: relative;
         top: 0 ;
-        left: 15%;
+        left: 10%;
         width: fit-content;
         height: inherit;
         text-align: left;
