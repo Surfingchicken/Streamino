@@ -257,7 +257,7 @@ fieldset form input[type="submit"], fieldset form button{
     }
     
 }
-@media screen and (max-width: 100rem) and (orientation: landscape){
+@media screen and ((max-width: 100rem) and (orientation: landscape)){
     .content-pri>ul{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);
